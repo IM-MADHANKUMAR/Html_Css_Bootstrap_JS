@@ -1,0 +1,43 @@
+.bg_home{
+    background-color:rgb(183, 179, 173) ;
+    height: 100%;
+}
+.welcome_note{
+    font-size: 40px;
+    font-family:roboto;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 150px;
+}
+.center_box{
+    border-radius:30px;
+    background-color: aqua;
+    width:280px;
+    height: 380px;
+    padding: 30px;
+    text-align: center;
+    margin: px;
+}
+.heading{
+    font-size:45px;
+    color: rgb(16, 19, 178);
+    font-style:oblique;
+}
+.input_1{
+    padding-bottom: 15px;
+    width: 170px;
+}
+
+.butto{
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.button_1{
+    margin: 10px;
+}
+
+.answer_line{
+    font-size: 22px;
+    font-weight: 700;
+}

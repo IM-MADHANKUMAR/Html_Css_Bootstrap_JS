@@ -1,0 +1,15 @@
+.main_heading{
+
+    font-family: sans-serif;
+    color: blue;
+}
+.container{
+    text-align: center;
+}
+.lorem_part{
+    padding: 8;
+    background-color: antiquewhite;
+}
+.bg_container_{
+    background-color: rgb(183, 201, 233);
+}

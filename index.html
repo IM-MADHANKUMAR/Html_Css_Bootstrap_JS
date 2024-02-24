@@ -1,0 +1,78 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript_demo</title>
+    <link rel="stylesheet" href="style_js_.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="javascript.js"></script>
+</head>
+<body class="bg_home">
+    
+        <p class="welcome_note">WELCOME TO JAVASCRIPT DEMO</p>
+        <div class="container">
+            <div class="row">
+                <div class="center_box d-flex flex-column justify-content-center col-12 col-md-5 mt-2 ml-md-5">
+                    <h2 class="heading">cm to inches</h2>
+                    <div>
+                        <input id="input_for_cm_js" class="input_1" type="text" placeholder="enter cm value">
+                    </div>
+                    <div class="button_1">
+                        <button class="butto btn-success" type="submit" onclick="convert()">convert to inches</button>
+                    </div>
+                    <P class="answer_line">converted value is ⬇️</P>
+                    <div class="result" id="answer_box_cm_js">
+                        
+                    </div>
+                </div>
+
+                <div class="center_box d-flex flex-column justify-content-center col-12 col-md-5 mt-2 ml-md-2">
+                    <h2 class="heading">celcius to fahrenheit</h2>
+                    <div>
+                        <input id="input_for_cel_js" class="input_1" type="text" placeholder="enter celcius value">
+                    </div>
+                    <div class="button_1">
+                        <button class="butto btn-success" type="submit" onclick="convert_cel_fah()">convert to fahrenheit</button>
+                    </div>
+                    <P class="answer_line">converted value is ⬇️</P>
+                    <div class="result" id="answer_box_cel_js">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ALERT_MESSAGE</title>
+</head>
+<body>
+    <form name="my_form" method="post" onsubmit="return alarm()">
+        NAME :<input  id="inp" type="text"><br><br>
+        GENDER :<select id ="ge">
+            <option>select the gender below</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>prefer not to say</option>
+        </select><br><br>
+        SUBMIT : <button type="submit">click to submit</button><br><br>
+    </form>
+    <script>
+        function alarm(){
+            let na_me = document.getElementById("inp").value;
+            let gen = document.getElementById("ge").value;
+            if(na_me=="" || gen==""){
+                alert("enter name correctly");
+                return false;
+                event.preventDefault();
+            }
+            alert("Sona College of Technology");  
+        }
+    </script>
+</body>
+</html>

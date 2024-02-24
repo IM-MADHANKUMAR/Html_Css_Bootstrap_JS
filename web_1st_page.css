@@ -1,0 +1,43 @@
+.bg_container{
+background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54578.jpg?size=626&ext=jpg");
+background-size: cover;
+height: 100vh;
+}
+
+.full_container{
+    background-color: rgba(189, 166, 170, 0.936);
+    text-align: center;
+    padding-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.sub_container_1{
+    background-color: rgb(106, 106, 67);
+    font-family: fantasy;
+    padding: 6px;
+}
+.sub_container_2{
+    padding-top:8px;
+}
+
+.button_part{
+    padding: 10px;
+}
+
+.button_inside{
+    height: 40px;
+    width: 90px;
+}
+
+.img_1{
+    height: 200px;
+    width: 300;
+}
+
+.img{
+    padding-top: 6px;
+}
+

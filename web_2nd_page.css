@@ -1,0 +1,37 @@
+.main_container{
+    background-image: url("https://img.freepik.com/free-photo/mesmerizing-shot-famous-historic-taj-mahal-agra-india_181624-16028.jpg?size=626&ext=jpg");
+    background-size: cover;
+    height:100vh;
+
+}
+.main_heading{
+    text-align: left;
+    color:white;
+    font-family: roboto;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.sub_container{
+    background-color: white;
+    padding-bottom: 10px;
+    margin: 4;
+    border-radius: 25px;
+}
+.card_desc{
+    padding: 8px;
+    width: 350px;
+    font-size: 19px;
+}
+.sub_heading{
+    text-align: center;
+}
+.card_img{
+    padding-top: 13px;
+}
+.img{
+    padding: 8px;
+    height: 100px;
+    width: 120px;
+}

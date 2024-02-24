@@ -1,0 +1,21 @@
+.main_container{
+    background-color: rgb(138, 205, 234);
+    /* background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png"); */
+    background-size: cover;
+    margin: 20px;
+}
+.top_heading{
+    text-align: center;
+    font-family:fantasy;
+    font-style: italic;
+}
+.middle_heading{
+    margin-top: 8px;
+    color: darkblue;
+    background-color: beige;
+    text-align: center;
+    padding:8px;
+}
+.middle_part{
+    background-color:rgb(182, 244, 182);
+}

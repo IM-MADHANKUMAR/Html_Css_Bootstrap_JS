@@ -1,0 +1,86 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="integration.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <title>website_integeration</title>
+</head>
+<body>
+    <div id="sectionfirstpage">
+        <div class="bg_container d-flex flex-column justify-content-center">
+            <div class="full_container">
+                <div class="sub_container_1">
+                    <h2 class="text-light">hello <br>welcome to website_integeration demo</h2>
+                </div>
+                <div class="sub_container_2">
+                    <div class="button_part">
+                        <button class=" button_inside btn btn-success" onclick="display('sectionsecondpage')">start</button>   
+                    </div>
+                    <div class="imgg">
+                        <img class="img_1" src="https://img.freepik.com/free-vector/software-developers-programming-computer-with-script_74855-6661.jpg?size=626&ext=jpg" alt="swebsite_working">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionsecondpage">
+        <div class="main_container d-flex flex-column">
+
+            <h2 class="main_heading" >Favourite Places</h2>
+
+            <div class="sub_container d-flex ">
+                <div class="card_desc">
+                    <h4 class="sub_heading">Taj Mahal</h4>
+                    <p>If there was a word to mention beauty of India then it is a Taj Mahal.</p>
+                </div>
+                <div class="card_img">
+                    <img class="img" src="https://img.freepik.com/free-vector/city-landmarks-background-video-conferencing_23-2148610801.jpg?size=626&ext=jpg"  alt="... ">
+                </div>
+            </div>
+
+            <div class="sub_container d-flex ">
+                <div class="card_desc">
+                    <h4 class="sub_heading">Golden Temple</h4>
+                    <p>Amritsar is world famous for golden temple.</p>
+                </div>
+                <div class="card_img">
+                    <img class="img" src="https://img.freepik.com/premium-photo/golden-temple-amritsar_163782-2329.jpg?size=626&ext=jpg" alt="... ">
+                </div>
+            </div>
+            
+            <div class="sub_container d-flex ">
+                <div class="card_desc">
+                    <h4 class="sub_heading">Varanasi Temple</h4>
+                    <p>Varanasi is most famous for devotee of lord Shiva.</p>
+                </div>
+                <div class="card_img">
+                    <img class="img" src="https://img.freepik.com/free-photo/free-photo-ramadan-kareem-eid-mubarak-mosque-evening-with-sun-light-background_1340-23547.jpg?size=626&ext=jpg"  alt="... ">
+                </div>
+                </div>
+            <div class="sub_container d-flex ">
+                <div class="card_desc">
+                    <h4 class="sub_heading">Mysore Palace</h4>
+                    <p>Mysore Palace is a historical and royal residence at Mysore.</p>
+                </div>
+                <div class="card_img">
+                    <img class="img" src="https://img.freepik.com/free-photo/udaipur-city-view-from-hotel-balcony-rajasthan-india_53876-65505.jpg?size=626&ext=jpg"  alt="... ">
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="display('sectionfirstpage')">go back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
