@@ -1,0 +1,41 @@
+body {
+    background-image: url('https://img.freepik.com/free-photo/desktop-with-laptop_23-2148128763.jpg?t=st=1710687399~exp=1710690999~hmac=6a6b2097ff937274ab1bbc232e8fcf97c1e5a54fd2cf81517684041486e6f82d&w=740');
+    background-size: cover;
+    height: 100vh;
+}
+.heading_text{
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(198, 46, 26);
+    font-size: 70px;
+    font-weight: 900;
+}
+.top_center_box{
+    background-color: white;
+    height:300px;
+    width: 700px;  
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+    overflow:auto;
+}
+.font_size_value{
+    height: 40px;
+    width: 160px;
+    background-color: rgba(47, 216, 222, 0.51);
+    padding-left: 14px;
+    padding-top: 9px;
+}
+.all_div{
+    margin-top: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+}
+.text_area_box{
+    height: 150px;
+    width: 300px;
+}
+#result_text_output {
+    max-height: 200px; /* Set a maximum height to prevent it from growing infinitely */
+}
